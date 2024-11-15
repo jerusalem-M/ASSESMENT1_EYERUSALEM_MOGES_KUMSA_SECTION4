@@ -1,0 +1,102 @@
+/* Reset */
+* {
+   padding: 0;
+   margin: 0;
+}
+main, nav {
+   background-color: rgb(247, 244, 244);
+   padding-bottom: 100px;
+}
+header {
+   background-color: #d9eed9;
+   height: 80px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+   margin-bottom: 8px;
+}
+a:hover {
+   background-color: rgb(179, 176, 176);
+}
+
+ul {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+   padding: 20px;
+}
+
+ul li a {
+   text-decoration: none;
+   list-style-type: none;
+   padding: 10px;
+   color: #4CAF50;
+}
+img {
+   width: 250px;
+   height: auto;
+}
+.product-list {
+   display: flex;
+   width: 970px;
+   margin: 10px auto 0 auto;
+}
+article {
+   background: white;
+   margin-left: 50px;
+   width: 350px;
+   height: 550px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 20px;
+   margin-bottom: 50px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+main > h2 {
+   padding-left: 190px;
+   margin-bottom: 0.01px;
+}
+h2 {
+   padding: 10px;
+}
+p {
+   padding: 10px;
+}
+.price {
+   color: green;
+}
+footer {
+   text-align: center;
+   background-color: #124314;
+   align-items: center;
+   justify-content: center;
+   height: 60px;
+   
+}
+@media screen and (max-width: 550px){
+   main {
+       width: 100%;
+       padding: 0 10px; /* Adds some padding for smaller screens */
+   }
+
+   .product-list {
+       flex-direction: column;
+       width: 100%;
+   }
+
+   article {
+       width: 100%; /* Full width for small screens */
+       margin: 15px 0;
+   }
+
+   img {
+       width: 80%; /* Smaller image size */
+   }
+}
+
+
